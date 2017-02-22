@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Asignaturas</string>
+    <string name="action_add_course">Añadir asignatura</string>
+    
+	<string name="al">Álgebra Lineal</string>
+	<string name="calc">Cálculo</string>
+	<string name="inc">Empresa</string>
+	<string name="fi">Fundamentos de Informática</string>
+	<string name="prog">Introducción a la Programación</string>
+	<string name="stat">Estadística</string>
+	<string name="wav">Ondas y Electromagnetismo</string>
+	<string name="fcr">Fundamentos de Computadores y Redes</string>
+	<string name="aut">Autómatas y Matemáticas Discretas</string>
+	<string name="met">Metodología de la Programación</string>
+	
+	<string name="default_course_format">Asignatura %d</string>
+	<string name="default_teacher_format">Profesor %d</string>
+
+</resources>
