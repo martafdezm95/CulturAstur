@@ -8,16 +8,20 @@
         "source": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_simple_dropdown_hint.xml"
     },
     {
+        "merged": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_details_fragment.xml",
+        "source": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\layout\\course_details_fragment.xml"
+    },
+    {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_course1.xml",
         "source": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\layout\\list_item_course1.xml"
     },
     {
-        "merged": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
@@ -40,6 +44,10 @@
         "source": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
+        "merged": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_details_activity.xml",
+        "source": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\layout\\course_details_activity.xml"
+    },
+    {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_mode_bar.xml"
     },
@@ -50,6 +58,10 @@
     {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_course2.xml",
         "source": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\layout\\list_item_course2.xml"
+    },
+    {
+        "merged": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_list_details_two_pane.xml",
+        "source": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\layout\\course_list_details_two_pane.xml"
     },
     {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
@@ -76,12 +88,20 @@
         "source": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
+        "merged": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_list_single_pane.xml",
+        "source": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\layout\\course_list_single_pane.xml"
+    },
+    {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_list_fragment.xml",
+        "source": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\layout\\course_list_fragment.xml"
     },
     {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",

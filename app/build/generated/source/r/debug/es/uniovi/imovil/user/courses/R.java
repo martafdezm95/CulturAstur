@@ -18,7 +18,8 @@ public final class R {
     }
     public static final class array {
         public static final int courses=0x7f0a0000;
-        public static final int teachers=0x7f0a0001;
+        public static final int descriptions=0x7f0a0001;
+        public static final int teachers=0x7f0a0002;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -1308,7 +1309,7 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020035;
     }
     public static final class id {
-        public static final int action_add_course=0x7f0c0044;
+        public static final int action_add_course=0x7f0c004a;
         public static final int action_bar=0x7f0c0031;
         public static final int action_bar_activity_content=0x7f0c0000;
         public static final int action_bar_container=0x7f0c0030;
@@ -1327,6 +1328,9 @@ containing a value of this type.
         public static final int beginning=0x7f0c0013;
         public static final int checkbox=0x7f0c0029;
         public static final int collapseActionView=0x7f0c0017;
+        public static final int course_details_container=0x7f0c0043;
+        public static final int course_details_frag=0x7f0c0044;
+        public static final int course_list_frag=0x7f0c0042;
         public static final int decor_content_parent=0x7f0c002f;
         public static final int default_activity_button=0x7f0c0024;
         public static final int dialog=0x7f0c001b;
@@ -1336,17 +1340,18 @@ containing a value of this type.
         public static final int end=0x7f0c0014;
         public static final int expand_activities_button=0x7f0c0022;
         public static final int expanded_menu=0x7f0c0028;
+        public static final int fragment_container=0x7f0c0040;
         public static final int home=0x7f0c0004;
         public static final int homeAsUp=0x7f0c000d;
         public static final int icon=0x7f0c0026;
         public static final int ifRoom=0x7f0c0018;
         public static final int image=0x7f0c0023;
-        public static final int imageView=0x7f0c0041;
+        public static final int imageView=0x7f0c0047;
         public static final int listMode=0x7f0c0009;
         public static final int list_item=0x7f0c0025;
         public static final int list_view_courses=0x7f0c003f;
         public static final int middle=0x7f0c0015;
-        public static final int nameTextView=0x7f0c0042;
+        public static final int nameTextView=0x7f0c0048;
         public static final int never=0x7f0c0019;
         public static final int none=0x7f0c000e;
         public static final int normal=0x7f0c000a;
@@ -1370,8 +1375,10 @@ containing a value of this type.
         public static final int split_action_bar=0x7f0c0007;
         public static final int submit_area=0x7f0c003c;
         public static final int tabMode=0x7f0c000b;
-        public static final int teacherTextView=0x7f0c0043;
-        public static final int textViewMesg=0x7f0c0040;
+        public static final int teacherTextView=0x7f0c0049;
+        public static final int text=0x7f0c0045;
+        public static final int textViewDesc=0x7f0c0041;
+        public static final int textViewMesg=0x7f0c0046;
         public static final int title=0x7f0c0027;
         public static final int up=0x7f0c0008;
         public static final int useLogo=0x7f0c0012;
@@ -1406,9 +1413,15 @@ containing a value of this type.
         public static final int abc_search_view=0x7f030015;
         public static final int abc_simple_dropdown_hint=0x7f030016;
         public static final int activity_main=0x7f030017;
-        public static final int list_item_course1=0x7f030018;
-        public static final int list_item_course2=0x7f030019;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001a;
+        public static final int course_details_activity=0x7f030018;
+        public static final int course_details_fragment=0x7f030019;
+        public static final int course_list_details_two_pane=0x7f03001a;
+        public static final int course_list_fragment=0x7f03001b;
+        public static final int course_list_single_pane=0x7f03001c;
+        public static final int list_item_course1=0x7f03001d;
+        public static final int list_item_course2=0x7f03001e;
+        public static final int main=0x7f030020;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
     }
     public static final class menu {
         public static final int main=0x7f0d0000;
@@ -1432,29 +1445,32 @@ containing a value of this type.
         public static final int abc_toolbar_collapse_description=0x7f05000f;
         public static final int action_add_course=0x7f050010;
         public static final int al=0x7f050011;
-        public static final int app_name=0x7f050012;
-        public static final int aut=0x7f050013;
-        public static final int calc=0x7f050014;
-        public static final int default_course_format=0x7f050015;
-        public static final int default_teacher_format=0x7f050016;
-        public static final int fcr=0x7f050017;
-        public static final int fi=0x7f050018;
-        public static final int inc=0x7f050019;
-        public static final int met=0x7f05001a;
-        public static final int prog=0x7f05001b;
-        public static final int stat=0x7f05001c;
-        public static final int wav=0x7f05001d;
+        public static final int al_desc=0x7f050012;
+        public static final int app_name=0x7f050013;
+        public static final int aut=0x7f050014;
+        public static final int aut_desc=0x7f050015;
+        public static final int calc=0x7f050016;
+        public static final int calc_desc=0x7f050017;
+        public static final int course_details=0x7f050018;
+        public static final int default_course_format=0x7f050019;
+        public static final int default_teacher_format=0x7f05001a;
+        public static final int fcr=0x7f05001b;
+        public static final int fcr_desc=0x7f05001c;
+        public static final int fi=0x7f05001d;
+        public static final int fi_desc=0x7f05001e;
+        public static final int inc=0x7f05001f;
+        public static final int inc_desc=0x7f050020;
+        public static final int met=0x7f050021;
+        public static final int met_desc=0x7f050022;
+        public static final int prog=0x7f050023;
+        public static final int prog_desc=0x7f050024;
+        public static final int stat=0x7f050025;
+        public static final int stat_desc=0x7f050026;
+        public static final int wav=0x7f050027;
+        public static final int wav_desc=0x7f050028;
     }
     public static final class style {
-        /** 
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
-         */
         public static final int AppBaseTheme=0x7f090065;
-        /**  All customizations that are NOT specific to a particular API-level can go here. 
-         */
         public static final int AppTheme=0x7f090066;
         public static final int Base_TextAppearance_AppCompat=0x7f090027;
         public static final int Base_TextAppearance_AppCompat_Body1=0x7f090028;

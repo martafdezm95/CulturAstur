@@ -3,43 +3,31 @@ package es.uniovi.imovil.user.courses;
 import java.util.ArrayList;
 import java.util.List;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends ActionBarActivity implements CourseListFragment.Callbacks {
 
-	private CourseAdapter mAdapter = null;
 	private int mCourseCount = 0;
-	
+	private boolean mTwoPanes = false;
+
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
-		
-		// Configurar la lista
-		ListView lvItems = (ListView) findViewById(R.id.list_view_courses);
-		String [] courses = getResources().getStringArray(R.array.courses);
-		String [] teachers = getResources().getStringArray(R.array.teachers);
-		mAdapter = new CourseAdapter(this, createCourseList(courses, teachers));
-		lvItems.setAdapter(mAdapter);
+		setContentView(R.layout.main);
+
+		if (findViewById(R.id.course_details_container) != null) {
+			mTwoPanes = true;
+		}
 	}
 
-	private List<Course> createCourseList(String[] names, String[] teachers) {
-		
-		if (names.length != teachers.length) {
-			throw new IllegalStateException();
-		}
-			
-		ArrayList<Course> courses = new ArrayList<Course>(names.length);
-		for (int i = 0; i < names.length; i++) {
-			courses.add(new Course(names[i], teachers[i]));
-		}
-		return courses;
-	}
-	
+
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 
@@ -47,25 +35,36 @@ public class MainActivity extends ActionBarActivity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return super.onCreateOptionsMenu(menu);
 	}
-	
+
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-			    
-	    switch (item.getItemId()) {
-	        case R.id.action_add_course:
-	            addCourse();
-	            return true;
-	        default:
-	            return super.onOptionsItemSelected(item);
-	    }
+
+		switch (item.getItemId()) {
+			case R.id.action_add_course:
+				FragmentManager fragmentManager = getSupportFragmentManager();
+				CourseListFragment fragment = (CourseListFragment) fragmentManager.findFragmentById(R.id.course_list_frag);
+				String name = String.format(getString(R.string.default_course_format), ++mCourseCount);
+				String teacher = String.format(getString(R.string.default_teacher_format), mCourseCount);
+				Course course = new Course(name, teacher, null);
+				fragment.addCourse(course);
+				return true;
+			default:
+				return super.onOptionsItemSelected(item);
+		}
 	}
 
-	private void addCourse() {
+	@Override
+	public void onCourseSelected(Course course) {
 
-		String name = String.format(getString(R.string.default_course_format), ++mCourseCount);
-		String teacher = String.format(getString(R.string.default_teacher_format), mCourseCount);
-		Course course = new Course(name, teacher);
-
-		mAdapter.addCourse(course);		
+		if (mTwoPanes) {
+			FragmentManager fragmentManager = getSupportFragmentManager();
+			CourseDetailsFragment fragment = (CourseDetailsFragment) fragmentManager.findFragmentById(R.id.course_details_frag);
+			fragment.setDescription(course.getDescription());
+		} else {
+			Intent intent = new Intent(this, CourseDetailsActivity.class);
+			intent.putExtra(CourseDetailsActivity.DESCRIPTION, course.getDescription());
+			startActivity(intent);
+		}
 	}
+
 }
