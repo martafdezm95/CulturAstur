@@ -9,37 +9,40 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
+import es.uniovi.imovil.user.courses.Models.Article;
+
 public class CourseAdapter extends BaseAdapter {
 	
 	static class ViewHolder {
 		public TextView mCourseName;
 		public TextView mTeacherName;
 	}
-	
-	private final List<Course> mCourses;
+
+
+	private List<Article> articleInfo;
 	public LayoutInflater mInflater;
 
 	
-	public CourseAdapter(Context context, List<Course> courses) {
+	public CourseAdapter(Context context, List<Article> articleInfo) {
 
-		if (context == null || courses == null ) {
+		if (context == null || articleInfo == null ) {
 			throw new IllegalArgumentException();
 		}
 			
-		this.mCourses = courses;
+		this.articleInfo = articleInfo;
 		this.mInflater = LayoutInflater.from(context);
 	}
 		
 	@Override
 	public int getCount() {
 
-		return mCourses.size();
+		return articleInfo.size();
 	}
 
 	@Override
 	public Object getItem(int position) {
 		
-		return mCourses.get(position);
+		return articleInfo.get(position);
 	}
 
 	@Override
@@ -62,21 +65,21 @@ public class CourseAdapter extends BaseAdapter {
 		} else {
 			viewHolder = (ViewHolder) rowView.getTag();
 		}
-		
-		Course course = (Course) getItem(position);
-		viewHolder.mCourseName.setText(course.getName());
-		viewHolder.mTeacherName.setText(course.getTeacher());
+
+		Article m = articleInfo.get(position);
+		viewHolder.mCourseName.setText(m.getDynamicElement().get(0).getDynamicContent().getContent());
+		viewHolder.mTeacherName.setText("Concejo: " + m.getDynamicElement().get(1).getDynamicContent().getContent());
 		
 		return rowView;
 	}
 	
-	public void addCourse(Course course) {
+	public void addCourse(Article article) {
 		
-		if (course == null) {
+		if (article == null) {
 			throw new IllegalArgumentException();			
 		}
 		
-		mCourses.add(course);
+		articleInfo.add(article);
 		
 		// Importante: notificar que ha cambiado el dataset
 		notifyDataSetChanged();
