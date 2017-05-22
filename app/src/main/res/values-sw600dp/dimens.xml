@@ -1,8 +1,11 @@
 <resources>
 
-    <!--
-         Customize dimensions originally defined in res/values/dimens.xml (such as
-         screen margins) for sw600dp devices (e.g. 7" tablets) here.
-    -->
+    <dimen name="activity_horizontal_ivWidth">300dp</dimen>
+    <dimen name="activity_horizontal_ivHeight">500dp</dimen>
+    <dimen name="fragment_horizontal_ivWidth">600dp</dimen>
+    <dimen name="fragment_horizontal_ivHeight">1000dp</dimen>
 
+    <dimen name="filter_horizontal_left">50dp</dimen>
+    <dimen name="filter_horizontal_right">50dp</dimen>
+    <dimen name="filter_horizontal_spinner_edit">200dp</dimen>
 </resources>

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+        "outputFile": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 112
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-large\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-large\\values-large.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 56,
+                        "startOffset": 230,
                         "endColumn": 61,
-                        "endOffset": 113
+                        "endOffset": 287
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-large\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-large\\values-large.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 118,
+                        "startOffset": 468,
                         "endColumn": 71,
-                        "endOffset": 185
+                        "endOffset": 535
                     }
                 }
             },
@@ -45,17 +45,17 @@
                     "startLine": 4,
                     "startColumn": 4,
                     "startOffset": 189,
-                    "endColumn": 40,
-                    "endOffset": 225
+                    "endColumn": 58,
+                    "endOffset": 243
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\values-large\\colors.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-large\\values-large.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 550,
-                        "endColumn": 40,
-                        "endOffset": 586
+                        "startOffset": 540,
+                        "endColumn": 58,
+                        "endOffset": 594
                     }
                 }
             },
@@ -63,18 +63,18 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 230,
-                    "endColumn": 41,
-                    "endOffset": 267
+                    "startOffset": 248,
+                    "endColumn": 70,
+                    "endOffset": 314
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\values-large\\colors.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-large\\values-large.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 97,
-                        "endColumn": 41,
-                        "endOffset": 134
+                        "startOffset": 775,
+                        "endColumn": 70,
+                        "endOffset": 841
                     }
                 }
             },
@@ -82,18 +82,18 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 272,
-                    "endColumn": 46,
-                    "endOffset": 314
+                    "startOffset": 319,
+                    "endColumn": 70,
+                    "endOffset": 385
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\values-large\\colors.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-large\\values-large.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 180,
-                        "endColumn": 46,
-                        "endOffset": 222
+                        "startOffset": 846,
+                        "endColumn": 70,
+                        "endOffset": 912
                     }
                 }
             },
@@ -101,18 +101,18 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 319,
-                    "endColumn": 52,
-                    "endOffset": 367
+                    "startOffset": 390,
+                    "endColumn": 69,
+                    "endOffset": 455
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\values-large\\colors.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-large\\values-large.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 284,
-                        "endColumn": 52,
-                        "endOffset": 332
+                        "startOffset": 917,
+                        "endColumn": 69,
+                        "endOffset": 982
                     }
                 }
             },
@@ -120,18 +120,18 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 372,
-                    "endColumn": 58,
-                    "endOffset": 426
+                    "startOffset": 460,
+                    "endColumn": 69,
+                    "endOffset": 525
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\values-large\\colors.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-large\\values-large.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 400,
-                        "endColumn": 58,
-                        "endOffset": 454
+                        "startOffset": 987,
+                        "endColumn": 69,
+                        "endOffset": 1052
                     }
                 }
             },
@@ -139,18 +139,18 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 431,
-                    "endColumn": 60,
-                    "endOffset": 487
+                    "startOffset": 530,
+                    "endColumn": 67,
+                    "endOffset": 593
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\values-large\\colors.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-large\\values-large.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 338,
-                        "endColumn": 60,
-                        "endOffset": 394
+                        "startOffset": 1057,
+                        "endColumn": 67,
+                        "endOffset": 1120
                     }
                 }
             },
@@ -158,18 +158,18 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 492,
-                    "endColumn": 54,
-                    "endOffset": 542
+                    "startOffset": 598,
+                    "endColumn": 67,
+                    "endOffset": 661
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\values-large\\colors.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-large\\values-large.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 228,
-                        "endColumn": 54,
-                        "endOffset": 278
+                        "startOffset": 1125,
+                        "endColumn": 67,
+                        "endOffset": 1188
                     }
                 }
             },
@@ -177,18 +177,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 547,
-                    "endColumn": 38,
-                    "endOffset": 581
+                    "startOffset": 666,
+                    "endColumn": 63,
+                    "endOffset": 725
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\values-large\\colors.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-large\\values-large.xml",
                     "position": {
-                        "startLine": 2,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 57,
-                        "endColumn": 38,
-                        "endOffset": 91
+                        "startOffset": 1193,
+                        "endColumn": 63,
+                        "endOffset": 1252
                     }
                 }
             },
@@ -196,18 +196,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 586,
-                    "endColumn": 41,
-                    "endOffset": 623
+                    "startOffset": 730,
+                    "endColumn": 54,
+                    "endOffset": 780
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\values-large\\colors.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-large\\values-large.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 507,
-                        "endColumn": 41,
-                        "endOffset": 544
+                        "startOffset": 1257,
+                        "endColumn": 54,
+                        "endOffset": 1307
                     }
                 }
             },
@@ -215,18 +215,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 628,
-                    "endColumn": 45,
-                    "endOffset": 669
+                    "startOffset": 785,
+                    "endColumn": 80,
+                    "endOffset": 861
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\values-large\\colors.xml",
+                    "file": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\values-large\\layout.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 460,
-                        "endColumn": 45,
-                        "endOffset": 501
+                        "startOffset": 57,
+                        "endColumn": 80,
+                        "endOffset": 133
                     }
                 }
             },
@@ -234,18 +234,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 674,
-                    "endColumn": 38,
-                    "endOffset": 708
+                    "startOffset": 866,
+                    "endColumn": 103,
+                    "endOffset": 965
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\values-large\\colors.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-large\\values-large.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 140,
-                        "endColumn": 38,
-                        "endOffset": 174
+                        "startOffset": 1493,
+                        "endColumn": 103,
+                        "endOffset": 1592
                     }
                 }
             },
@@ -253,189 +253,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 713,
-                    "endColumn": 58,
-                    "endOffset": 767
-                },
-                "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-large\\values.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 191,
-                        "endColumn": 58,
-                        "endOffset": 245
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 772,
-                    "endColumn": 63,
-                    "endOffset": 831
-                },
-                "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-large\\values.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 250,
-                        "endColumn": 63,
-                        "endOffset": 309
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 836,
-                    "endColumn": 66,
-                    "endOffset": 898
-                },
-                "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-large\\values.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 315,
-                        "endColumn": 66,
-                        "endOffset": 377
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 903,
-                    "endColumn": 66,
-                    "endOffset": 965
-                },
-                "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-large\\values.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 382,
-                        "endColumn": 66,
-                        "endOffset": 444
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
                     "startOffset": 970,
-                    "endColumn": 65,
-                    "endOffset": 1031
-                },
-                "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-large\\values.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 449,
-                        "endColumn": 65,
-                        "endOffset": 510
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1036,
-                    "endColumn": 65,
-                    "endOffset": 1097
-                },
-                "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-large\\values.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 515,
-                        "endColumn": 65,
-                        "endOffset": 576
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 1102,
-                    "endColumn": 54,
-                    "endOffset": 1152
-                },
-                "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-large\\values.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 582,
-                        "endColumn": 54,
-                        "endOffset": 632
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 1157,
-                    "endColumn": 79,
-                    "endOffset": 1232
-                },
-                "from": {
-                    "file": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\values-large\\layout.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 57,
-                        "endColumn": 79,
-                        "endOffset": 132
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 23,
-                    "startColumn": 4,
-                    "startOffset": 1237,
-                    "endColumn": 103,
-                    "endOffset": 1336
-                },
-                "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-large\\values.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 638,
-                        "endColumn": 104,
-                        "endOffset": 738
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 24,
-                    "startColumn": 4,
-                    "startOffset": 1341,
                     "endColumn": 115,
-                    "endOffset": 1452
+                    "endOffset": 1081
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-large\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-large\\values-large.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 744,
-                        "endColumn": 116,
-                        "endOffset": 856
+                        "startOffset": 1597,
+                        "endColumn": 115,
+                        "endOffset": 1708
                     }
                 }
             }

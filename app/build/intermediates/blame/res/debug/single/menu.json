@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\menu\\drawer_menu_items.xml",
+        "source": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\menu\\drawer_menu_items.xml"
+    },
+    {
+        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\menu\\main.xml"
     }
 ]

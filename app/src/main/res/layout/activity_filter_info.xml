@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:background="@color/filter_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_for_spinner"
+        android:text="Filtrar por:"
+        android:textSize="30dp"
+        android:layout_marginLeft="@dimen/filter_horizontal_left"
+        android:layout_marginRight="@dimen/filter_horizontal_right"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"/>
+
+    <Spinner
+        android:id="@+id/spinner_filter_option"
+        style="?attr/actionBarPopupTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_for_spinner"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="@dimen/filter_horizontal_left"
+        android:layout_marginRight="@dimen/filter_horizontal_right"
+        android:entries="@array/filter_option_array"
+        android:prompt="@string/filter_option_prompt"
+        android:theme="@style/AlertDialog.AppCompat.Light"
+        android:spinnerMode="dropdown"></Spinner>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_search"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/filter_horizontal_spinner_edit"
+        android:layout_marginRight="@dimen/filter_horizontal_right"
+        android:layout_below="@+id/text_for_spinner"
+        android:layout_marginBottom="20dp"
+        android:imeOptions="actionDone"
+        android:singleLine="true"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkb_order_prox"
+        android:text="Ordenar por proximidad"
+        android:layout_marginLeft="@dimen/filter_horizontal_left"
+        android:layout_marginRight="@dimen/filter_horizontal_right"
+        android:layout_below="@+id/spinner_filter_option"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/filter_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/checkb_order_prox"
+        android:layout_marginLeft="@dimen/filter_horizontal_spinner_edit"
+        android:layout_marginRight="@dimen/filter_horizontal_right"
+        android:layout_marginBottom="50dp"
+        android:text="Filtrar"
+        android:theme="@style/AppTheme" />
+
+</RelativeLayout>
+</ScrollView>

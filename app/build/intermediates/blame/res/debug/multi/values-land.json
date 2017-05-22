@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+        "outputFile": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 112
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-land\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-land\\values-land.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 56,
+                        "startOffset": 229,
                         "endColumn": 61,
-                        "endOffset": 113
+                        "endOffset": 286
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-land\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-land\\values-land.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 118,
+                        "startOffset": 466,
                         "endColumn": 71,
-                        "endOffset": 185
+                        "endOffset": 533
                     }
                 }
             },
@@ -49,13 +49,13 @@
                     "endOffset": 254
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-land\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-land\\values-land.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 191,
+                        "startOffset": 722,
                         "endColumn": 69,
-                        "endOffset": 256
+                        "endOffset": 787
                     }
                 }
             },
@@ -64,17 +64,17 @@
                     "startLine": 5,
                     "startColumn": 4,
                     "startOffset": 259,
-                    "endColumn": 69,
-                    "endOffset": 324
+                    "endColumn": 63,
+                    "endOffset": 318
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-land\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-land\\values-land.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 261,
-                        "endColumn": 69,
-                        "endOffset": 326
+                        "startOffset": 967,
+                        "endColumn": 63,
+                        "endOffset": 1026
                     }
                 }
             },
@@ -82,18 +82,18 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 329,
-                    "endColumn": 63,
-                    "endOffset": 388
+                    "startOffset": 323,
+                    "endColumn": 70,
+                    "endOffset": 389
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-land\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-land\\values-land.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 331,
-                        "endColumn": 63,
-                        "endOffset": 390
+                        "startOffset": 1215,
+                        "endColumn": 70,
+                        "endOffset": 1281
                     }
                 }
             },
@@ -101,18 +101,18 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 393,
-                    "endColumn": 70,
-                    "endOffset": 459
+                    "startOffset": 394,
+                    "endColumn": 67,
+                    "endOffset": 457
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-land\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-land\\values-land.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 395,
-                        "endColumn": 70,
-                        "endOffset": 461
+                        "startOffset": 1286,
+                        "endColumn": 67,
+                        "endOffset": 1349
                     }
                 }
             },
@@ -120,18 +120,191 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 464,
-                    "endColumn": 67,
-                    "endOffset": 527
+                    "startOffset": 462,
+                    "endColumn": 60,
+                    "endOffset": 518
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-land\\values.xml",
+                    "file": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 269,
+                        "endColumn": 60,
+                        "endOffset": 325
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 523,
+                    "endColumn": 59,
+                    "endOffset": 578
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 208,
+                        "endColumn": 59,
+                        "endOffset": 263
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 583,
+                    "endColumn": 57,
+                    "endOffset": 636
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 641,
+                    "endColumn": 55,
+                    "endOffset": 692
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 697,
+                    "endColumn": 53,
+                    "endOffset": 746
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\values-land\\dimens.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 466,
-                        "endColumn": 67,
-                        "endOffset": 529
+                        "startOffset": 457,
+                        "endColumn": 53,
+                        "endOffset": 506
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 751,
+                    "endColumn": 54,
+                    "endOffset": 801
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 512,
+                        "endColumn": 54,
+                        "endOffset": 562
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 806,
+                    "endColumn": 62,
+                    "endOffset": 864
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 568,
+                        "endColumn": 62,
+                        "endOffset": 626
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 869,
+                    "endColumn": 61,
+                    "endOffset": 926
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 392,
+                        "endColumn": 61,
+                        "endOffset": 449
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 931,
+                    "endColumn": 59,
+                    "endOffset": 986
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 331,
+                        "endColumn": 59,
+                        "endOffset": 386
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 991,
+                    "endLine": 20,
+                    "endColumn": 12,
+                    "endOffset": 1168
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\dce984d2b06ea4a59a96fda928138832adc55333\\output\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 224,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 401
                     }
                 }
             }

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+    <item
+        android:id="@+id/navigation_drawer_home"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Home" /></group>
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/navigation_drawer_maps"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Map" />
+        <item
+            android:id="@+id/navigation_favourite"
+            android:icon="@android:drawable/btn_star_big_off"
+            android:title="Favoritos" />
+
+    </group>
+
+</menu>

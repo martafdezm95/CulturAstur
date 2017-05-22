@@ -1,23 +1,23 @@
 [
     {
-        "outputFile": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+        "outputFile": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
         "map": [
             {
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 69,
-                    "endOffset": 120
+                    "endColumn": 68,
+                    "endOffset": 119
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-sw600dp\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-sw600dp\\values-sw600dp.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 56,
-                        "endColumn": 69,
-                        "endOffset": 121
+                        "startOffset": 233,
+                        "endColumn": 68,
+                        "endOffset": 297
                     }
                 }
             },
@@ -25,18 +25,18 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 125,
+                    "startOffset": 124,
                     "endColumn": 69,
-                    "endOffset": 190
+                    "endOffset": 189
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-sw600dp\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-sw600dp\\values-sw600dp.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 126,
+                        "startOffset": 302,
                         "endColumn": 69,
-                        "endOffset": 191
+                        "endOffset": 367
                     }
                 }
             },
@@ -44,18 +44,18 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 195,
-                    "endColumn": 58,
-                    "endOffset": 249
+                    "startOffset": 194,
+                    "endColumn": 73,
+                    "endOffset": 263
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-sw600dp\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-sw600dp\\values-sw600dp.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 196,
-                        "endColumn": 58,
-                        "endOffset": 250
+                        "startOffset": 372,
+                        "endColumn": 73,
+                        "endOffset": 441
                     }
                 }
             },
@@ -63,18 +63,18 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 254,
-                    "endColumn": 70,
-                    "endOffset": 320
+                    "startOffset": 268,
+                    "endColumn": 75,
+                    "endOffset": 339
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-sw600dp\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-sw600dp\\values-sw600dp.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 255,
-                        "endColumn": 70,
-                        "endOffset": 321
+                        "startOffset": 446,
+                        "endColumn": 75,
+                        "endOffset": 517
                     }
                 }
             },
@@ -82,18 +82,18 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 325,
-                    "endColumn": 67,
-                    "endOffset": 388
+                    "startOffset": 344,
+                    "endColumn": 58,
+                    "endOffset": 398
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-sw600dp\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-sw600dp\\values-sw600dp.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 326,
-                        "endColumn": 67,
-                        "endOffset": 389
+                        "startOffset": 700,
+                        "endColumn": 58,
+                        "endOffset": 754
                     }
                 }
             },
@@ -101,18 +101,381 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 393,
-                    "endColumn": 54,
-                    "endOffset": 443
+                    "startOffset": 403,
+                    "endColumn": 70,
+                    "endOffset": 469
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-sw600dp\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 937,
+                        "endColumn": 70,
+                        "endOffset": 1003
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 474,
+                    "endColumn": 67,
+                    "endOffset": 537
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1008,
+                        "endColumn": 67,
+                        "endOffset": 1071
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 542,
+                    "endColumn": 60,
+                    "endOffset": 598
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\values-sw600dp\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 80,
+                        "endColumn": 60,
+                        "endOffset": 136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 603,
+                    "endColumn": 59,
+                    "endOffset": 658
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\values-sw600dp\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 19,
+                        "endColumn": 59,
+                        "endOffset": 74
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 663,
+                    "endColumn": 69,
+                    "endOffset": 728
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\dce984d2b06ea4a59a96fda928138832adc55333\\output\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 227,
+                        "endColumn": 69,
+                        "endOffset": 292
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 733,
+                    "endColumn": 70,
+                    "endOffset": 799
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\dce984d2b06ea4a59a96fda928138832adc55333\\output\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 297,
+                        "endColumn": 70,
+                        "endOffset": 363
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 804,
+                    "endColumn": 71,
+                    "endOffset": 871
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\dce984d2b06ea4a59a96fda928138832adc55333\\output\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 368,
+                        "endColumn": 71,
+                        "endOffset": 435
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 876,
+                    "endColumn": 57,
+                    "endOffset": 929
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\dce984d2b06ea4a59a96fda928138832adc55333\\output\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 440,
+                        "endColumn": 57,
+                        "endOffset": 493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 934,
+                    "endColumn": 57,
+                    "endOffset": 987
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\dce984d2b06ea4a59a96fda928138832adc55333\\output\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 498,
+                        "endColumn": 57,
+                        "endOffset": 551
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 992,
+                    "endColumn": 105,
+                    "endOffset": 1093
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\dce984d2b06ea4a59a96fda928138832adc55333\\output\\res\\values-sw600dp\\values-sw600dp.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 395,
+                        "startOffset": 556,
+                        "endColumn": 105,
+                        "endOffset": 657
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1098,
+                    "endColumn": 63,
+                    "endOffset": 1157
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\dce984d2b06ea4a59a96fda928138832adc55333\\output\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 662,
+                        "endColumn": 63,
+                        "endOffset": 721
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1162,
+                    "endColumn": 53,
+                    "endOffset": 1211
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\values-sw600dp\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 268,
+                        "endColumn": 53,
+                        "endOffset": 317
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1216,
+                    "endColumn": 54,
+                    "endOffset": 1266
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\values-sw600dp\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 323,
                         "endColumn": 54,
-                        "endOffset": 445
+                        "endOffset": 373
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1271,
+                    "endColumn": 62,
+                    "endOffset": 1329
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\values-sw600dp\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 379,
+                        "endColumn": 62,
+                        "endOffset": 437
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1334,
+                    "endColumn": 61,
+                    "endOffset": 1391
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\values-sw600dp\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 203,
+                        "endColumn": 61,
+                        "endOffset": 260
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1396,
+                    "endColumn": 59,
+                    "endOffset": 1451
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\values-sw600dp\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 142,
+                        "endColumn": 59,
+                        "endOffset": 197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1456,
+                    "endColumn": 72,
+                    "endOffset": 1524
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\0ff70bdb96e080dba3936b49dc996f3194748f4c\\output\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 72,
+                        "endOffset": 350
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1529,
+                    "endColumn": 54,
+                    "endOffset": 1579
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1076,
+                        "endColumn": 54,
+                        "endOffset": 1126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1584,
+                    "endColumn": 62,
+                    "endOffset": 1642
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\dce984d2b06ea4a59a96fda928138832adc55333\\output\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 898,
+                        "endColumn": 62,
+                        "endOffset": 956
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1647,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 1824
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\dce984d2b06ea4a59a96fda928138832adc55333\\output\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1133,
+                        "endLine": 19,
+                        "endColumn": 12,
+                        "endOffset": 1310
                     }
                 }
             }

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
+        "outputFile": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 112
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-w480dp\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-w480dp\\values-w480dp.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 56,
+                        "startOffset": 231,
                         "endColumn": 61,
-                        "endOffset": 113
+                        "endOffset": 288
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-w480dp\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-w480dp\\values-w480dp.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 118,
+                        "startOffset": 470,
                         "endColumn": 71,
-                        "endOffset": 185
+                        "endOffset": 537
                     }
                 }
             }

@@ -1,256 +1,298 @@
 [
     {
-        "outputFile": "C:\\Users\\marta\\Downloads\\Courses\\Courses\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+        "outputFile": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
         "map": [
             {
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endLine": 5,
+                    "endLine": 4,
                     "endColumn": 12,
-                    "endOffset": 278
+                    "endOffset": 223
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-v17\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-v17\\values-v17.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 56,
+                        "startOffset": 233,
                         "endLine": 6,
                         "endColumn": 12,
-                        "endOffset": 279
+                        "endOffset": 401
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 283,
-                    "endLine": 9,
+                    "startOffset": 228,
+                    "endLine": 8,
                     "endColumn": 12,
-                    "endOffset": 526
+                    "endOffset": 451
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-v17\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-v17\\values-v17.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 285,
-                        "endLine": 11,
+                        "startOffset": 406,
+                        "endLine": 10,
                         "endColumn": 12,
-                        "endOffset": 528
+                        "endOffset": 629
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 531,
-                    "endLine": 13,
+                    "startOffset": 456,
+                    "endLine": 11,
                     "endColumn": 12,
-                    "endOffset": 766
+                    "endOffset": 609
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-v17\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-v17\\values-v17.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 534,
+                        "startOffset": 634,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 787
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 614,
+                    "endLine": 14,
+                    "endColumn": 12,
+                    "endOffset": 759
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-v17\\values-v17.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 792,
                         "endLine": 16,
                         "endColumn": 12,
-                        "endOffset": 769
+                        "endOffset": 937
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 771,
-                    "endLine": 16,
+                    "startOffset": 764,
+                    "endLine": 17,
                     "endColumn": 12,
-                    "endOffset": 916
+                    "endOffset": 931
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-v17\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-v17\\values-v17.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 775,
-                        "endLine": 20,
+                        "startOffset": 942,
+                        "endLine": 19,
                         "endColumn": 12,
-                        "endOffset": 920
+                        "endOffset": 1109
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 921,
-                    "endLine": 19,
+                    "startOffset": 936,
+                    "endLine": 21,
                     "endColumn": 12,
-                    "endOffset": 1088
+                    "endOffset": 1159
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-v17\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-v17\\values-v17.xml",
                     "position": {
-                        "startLine": 22,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 926,
-                        "endLine": 24,
+                        "startOffset": 1114,
+                        "endLine": 23,
                         "endColumn": 12,
-                        "endOffset": 1093
+                        "endOffset": 1337
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1093,
-                    "endLine": 23,
+                    "startOffset": 1164,
+                    "endLine": 25,
                     "endColumn": 12,
-                    "endOffset": 1316
+                    "endOffset": 1401
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-v17\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-v17\\values-v17.xml",
                     "position": {
-                        "startLine": 26,
+                        "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 1099,
-                        "endLine": 29,
+                        "startOffset": 1342,
+                        "endLine": 27,
                         "endColumn": 12,
-                        "endOffset": 1322
+                        "endOffset": 1579
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1321,
-                    "endLine": 27,
+                    "startOffset": 1406,
+                    "endLine": 28,
                     "endColumn": 12,
-                    "endOffset": 1558
+                    "endOffset": 1572
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-v17\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-v17\\values-v17.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1584,
+                        "endLine": 30,
+                        "endColumn": 12,
+                        "endOffset": 1750
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1577,
+                    "endLine": 31,
+                    "endColumn": 12,
+                    "endOffset": 1746
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
-                        "startOffset": 1328,
-                        "endLine": 34,
+                        "startOffset": 1755,
+                        "endLine": 33,
                         "endColumn": 12,
-                        "endOffset": 1565
+                        "endOffset": 1924
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 1563,
-                    "endLine": 30,
+                    "startOffset": 1751,
+                    "endLine": 34,
                     "endColumn": 12,
-                    "endOffset": 1729
+                    "endOffset": 1915
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-v17\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-v17\\values-v17.xml",
                     "position": {
-                        "startLine": 36,
+                        "startLine": 34,
                         "startColumn": 4,
-                        "startOffset": 1571,
-                        "endLine": 38,
+                        "startOffset": 1929,
+                        "endLine": 36,
                         "endColumn": 12,
-                        "endOffset": 1737
+                        "endOffset": 2093
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 1734,
-                    "endLine": 33,
+                    "startOffset": 1920,
+                    "endLine": 38,
                     "endColumn": 12,
-                    "endOffset": 1903
+                    "endOffset": 2188
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-v17\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-v17\\values-v17.xml",
                     "position": {
-                        "startLine": 40,
+                        "startLine": 37,
                         "startColumn": 4,
-                        "startOffset": 1743,
-                        "endLine": 42,
+                        "startOffset": 2098,
+                        "endLine": 40,
                         "endColumn": 12,
-                        "endOffset": 1912
+                        "endOffset": 2366
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 34,
+                    "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 1908,
-                    "endLine": 36,
+                    "startOffset": 2193,
+                    "endLine": 41,
                     "endColumn": 12,
-                    "endOffset": 2072
+                    "endOffset": 2388
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-v17\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-v17\\values-v17.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 2371,
+                        "endLine": 43,
+                        "endColumn": 12,
+                        "endOffset": 2566
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2393,
+                    "endLine": 45,
+                    "endColumn": 12,
+                    "endOffset": 2592
+                },
+                "from": {
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 4,
-                        "startOffset": 1918,
-                        "endLine": 46,
+                        "startOffset": 2571,
+                        "endLine": 47,
                         "endColumn": 12,
-                        "endOffset": 2082
+                        "endOffset": 2770
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 37,
+                    "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 2077,
-                    "endLine": 40,
+                    "startOffset": 2597,
+                    "endLine": 49,
                     "endColumn": 12,
-                    "endOffset": 2345
+                    "endOffset": 2921
                 },
                 "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-v17\\values.xml",
+                    "file": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
-                        "startOffset": 2088,
+                        "startOffset": 2775,
                         "endLine": 51,
                         "endColumn": 12,
-                        "endOffset": 2356
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 41,
-                    "startColumn": 4,
-                    "startOffset": 2350,
-                    "endLine": 43,
-                    "endColumn": 12,
-                    "endOffset": 2545
-                },
-                "from": {
-                    "file": "C:\\Users\\marta\\.android\\build-cache\\b4044dcbf47bc8f6aed78796f14f863f7ac9d687\\output\\res\\values-v17\\values.xml",
-                    "position": {
-                        "startLine": 53,
-                        "startColumn": 4,
-                        "startOffset": 2362,
-                        "endLine": 55,
-                        "endColumn": 12,
-                        "endOffset": 2557
+                        "endOffset": 3099
                     }
                 }
             }
