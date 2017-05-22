@@ -9,8 +9,8 @@ La aplicación provee al usuario de:
 * Ubicación, información de interés, horarios e información de contacto sobre cada uno de estos lugares.
 * Guarda las preferencia de los usuarios, pudiendo así tener una lista de espacios favoritos.
 * Provee al usuario de un filtro personalizado que permite realizar búsquedas por:
-  ** Nombre
-  ** Localidad
+  - Nombre
+  - Localidad
 * En el mismo filtro anterior se permite reordenar la lista de espacios culturales según la proximidad.
 * Muestra en un mapa todos los espacios, los espacios filtrados, los guardados en favoritos y/o los 10 más cercanos.
   
