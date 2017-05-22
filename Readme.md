@@ -3,7 +3,7 @@ Aplicación móvil para android desarrollada en el IDE Android Studio, como trab
 del Grado de Ingeniería Informática en Tecnologías de la Información por la Universidad de Oviedo.
   
 ## ¿Qué ofrece?
-Esta aplicación muestra información de todos los museos y espacios culturales de asturias recogidos en los datos abiertos de la página web de Principado de Asturias.
+Esta aplicación muestra información de todos los museos y espacios culturales de asturias recogidos en los datos abiertos de la página web de Principado de Asturias.  
 La aplicación provee al usuario de:
 * Una lista de cada uno de los museos o espacios culturales asturianos.
 * Ubicación, información de interés, horarios e información de contacto sobre cada uno de estos lugares.
