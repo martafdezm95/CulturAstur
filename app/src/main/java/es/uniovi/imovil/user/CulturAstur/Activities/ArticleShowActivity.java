@@ -40,14 +40,14 @@ public class ArticleShowActivity extends Activity {
             int posArt = ArticleListFragment.articlesModelList.get(pos).getModelPos();
             int posFav = ArticleListFragment.articlesModelListFinal.get(posArt).isFav();
             if ( posFav != -1) {
-                fab.setImageResource(android.R.drawable.star_big_on);
+                fab.setImageResource(R.drawable.filled_like);
             }
 
         }catch(RuntimeException e){
             int posArt = ArticleListFragment.articlesFavouriteList.get(pos).getModelPos();
             int posFav = ArticleListFragment.articlesModelListFinal.get(posArt).isFav();
             if ( posFav != -1) {
-                fab.setImageResource(android.R.drawable.star_big_on);
+                fab.setImageResource(R.drawable.filled_like);
             }
         }
         fab.setOnClickListener(new View.OnClickListener() {
@@ -60,7 +60,7 @@ public class ArticleShowActivity extends Activity {
                         int posFav = ArticleListFragment.articlesModelListFinal.get(posArt).isFav();
                         //If =! -1, remove from favourite
                         if (posFav != -1) {
-                            fab.setImageResource(android.R.drawable.star_big_off); //Replace yellow star for grey star
+                            fab.setImageResource(R.drawable.empty_like); //Replace yellow star for grey star
 
                             //Remove from favouriteList
                             ArticleListFragment.articlesFavouriteList.remove(ArticleListFragment.articlesModelList.get(pos).isFav());
@@ -78,7 +78,7 @@ public class ArticleShowActivity extends Activity {
 
                             editor.apply();
                         } else {
-                            fab.setImageResource(android.R.drawable.star_big_on);  //Replace gray star for yellow star
+                            fab.setImageResource(R.drawable.filled_like);  //Replace gray star for yellow star
 
                             //Add article at favourite list
                             ArticleListFragment.articlesFavouriteList.add(ArticleListFragment.articlesModelList.get(pos));
@@ -100,7 +100,7 @@ public class ArticleShowActivity extends Activity {
                         int posArt = ArticleListFragment.articlesFavouriteList.get(pos).getModelPos();
                         int posFav = ArticleListFragment.articlesModelListFinal.get(posArt).isFav();
                         if (posFav != -1) {
-                            fab.setImageResource(android.R.drawable.star_big_off);
+                            fab.setImageResource(R.drawable.empty_like);
                             ArticleListFragment.articlesFavouriteList.get(pos).setFav(-1);
                             ArticleListFragment.articlesFavouriteList.remove(pos);
                             ArticleListFragment.articlesModelListFinal.get(posArt).setFav(-1);
@@ -124,7 +124,7 @@ public class ArticleShowActivity extends Activity {
                     int posArt = ArticleListFragment.articlesFavouriteList.get(pos).getModelPos();
                     int posFav = ArticleListFragment.articlesModelListFinal.get(posArt).isFav();
                     if ( posFav != -1) {
-                        fab.setImageResource(android.R.drawable.star_big_off);
+                        fab.setImageResource(R.drawable.empty_like);
                         ArticleListFragment.articlesFavouriteList.get(pos).setFav(-1);
                         ArticleListFragment.articlesFavouriteList.remove(pos);
                         ArticleListFragment.articlesModelListFinal.get(posArt).setFav(-1);

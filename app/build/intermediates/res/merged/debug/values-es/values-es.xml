@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="filter_option_array">
+        <item>@string/filter_option_name</item>
+        <item>@string/filter_option_council</item>
+    </string-array>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
@@ -19,6 +23,12 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string name="adapter_council">Concejo: </string>
+    <string name="app_name">CulturAstur</string>
+    <string name="article_show_contact">Información de contacto:</string>
+    <string name="article_show_council">Localización:</string>
+    <string name="article_show_info">Información:</string>
+    <string name="article_show_website">Página web no disponible</string>
     <string msgid="2785372108150982144" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> necesita uno o varios servicios de Google Play que no están disponibles en este momento. Ponte en contacto con el desarrollador para obtener ayuda."</string>
     <string msgid="7334167077229901382" name="common_google_play_services_enable_button">"Habilitar los Servicios de Google Play"</string>
     <string msgid="2016066508617425489" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionará hasta que no habilites los Servicios de Google Play."</string>
@@ -48,6 +58,21 @@
     <string msgid="311697239335516384" name="common_open_on_phone">"Abrir en teléfono"</string>
     <string msgid="3156914698180786012" name="common_signin_button_text">"Iniciar sesión"</string>
     <string msgid="1483290677806110088" name="common_signin_button_text_long">"Iniciar sesión con Google"</string>
+    <string name="drawer_fav">Mis Favoritos</string>
+    <string name="drawer_home">Menú principal</string>
+    <string name="drawer_map">Mapa</string>
+    <string name="filter_button_filter">Filtrar</string>
+    <string name="filter_council_comp">Localidad</string>
+    <string name="filter_map_10">10 más próximos</string>
+    <string name="filter_name_comp">Nombre</string>
+    <string name="filter_option_council">Localidad</string>
+    <string name="filter_option_name">Nombre</string>
+    <string name="filter_option_prompt">Buscar por: </string>
+    <string name="filter_order">Ordenar por proximidad</string>
+    <string name="filter_title">Filtrar por:</string>
+    <string name="google_maps_key">AIzaSyDfmzSIocwr5Ydw_xmbjZCf7wEjk4MzJDQ</string>
+    <string name="main_already_home">Ya está en el menú principal</string>
+    <string name="maps_already_maps">Ya está en el mapa</string>
     <string msgid="8327680881775995150" name="mr_media_route_button_content_description">"Enviar contenido"</string>
     <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"Buscando dispositivos…"</string>
     <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"Conectar a dispositivo"</string>
@@ -61,6 +86,15 @@
     <string msgid="7498112907524977311" name="mr_user_route_category_name">"Dispositivos"</string>
     <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"Borrar búsqueda"</string>
     <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"Buscar"</string>
+    <string name="progress_dialog_loading">Cargando...</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="toas_filter_gps">Por favor active el GPS, para ordenar por proximidad</string>
+    <string name="toast_already_fav">Ya está en favoritos</string>
+    <string name="toast_maps_gps">Es necesario poder acceder a tu localización para el normal uso de la aplicación</string>
+    <string name="toast_maps_gps2">CONECTE EL GPS PARA OBTENER SU UBICACIÓN</string>
+    <string name="toast_maps_permission">Permiso denegado, no se podrá utilizar la aplicación</string>
+    <string name="toolbar_title_fav">Mis favoritos</string>
     <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Comprar con Google"</string>
+    <string name="you_are_here">Aquí estás</string>
 </resources>

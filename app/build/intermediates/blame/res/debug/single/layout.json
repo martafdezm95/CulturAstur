@@ -8,10 +8,6 @@
         "source": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\layout\\article_details_activity.xml",
-        "source": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\layout\\article_details_activity.xml"
-    },
-    {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\layout\\abc_screen_simple.xml"
     },
@@ -130,10 +126,6 @@
     {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\layout\\article_details_fragment.xml",
-        "source": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\layout\\article_details_fragment.xml"
     },
     {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",

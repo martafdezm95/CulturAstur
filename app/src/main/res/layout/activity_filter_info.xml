@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/text_for_spinner"
-        android:text="Filtrar por:"
+        android:text="@string/filter_title"
         android:textSize="30dp"
         android:layout_marginLeft="@dimen/filter_horizontal_left"
         android:layout_marginRight="@dimen/filter_horizontal_right"
@@ -55,7 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/checkb_order_prox"
-        android:text="Ordenar por proximidad"
+        android:text="@string/filter_order"
         android:layout_marginLeft="@dimen/filter_horizontal_left"
         android:layout_marginRight="@dimen/filter_horizontal_right"
         android:layout_below="@+id/spinner_filter_option"
@@ -70,7 +70,7 @@
         android:layout_marginLeft="@dimen/filter_horizontal_spinner_edit"
         android:layout_marginRight="@dimen/filter_horizontal_right"
         android:layout_marginBottom="50dp"
-        android:text="Filtrar"
+        android:text="@string/filter_button_filter"
         android:theme="@style/AppTheme" />
 
 </RelativeLayout>

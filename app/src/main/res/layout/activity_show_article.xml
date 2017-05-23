@@ -75,7 +75,7 @@
                             android:layout_marginLeft="20dp"
                             android:fontFamily="@string/auth_google_play_services_client_facebook_display_name"
                             android:paddingTop="10dp"
-                            android:text="Localización:"
+                            android:text="@string/article_show_council"
                             android:textColor="@color/secundary"
                             android:textSize="20sp" />
                         <TextView
@@ -85,7 +85,7 @@
                             android:layout_below="@id/textLocation"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Your Full Name"
+                            android:text=""
                             android:textColor="@color/tertiary" />
 
                         <TextView
@@ -95,7 +95,7 @@
                             android:layout_below="@id/textZone"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Just a sub title"
+                            android:text=""
                             android:textColor="@color/tertiary"
                             android:layout_marginBottom="10dp"/>
 
@@ -125,7 +125,7 @@
                             android:layout_below="@id/card_view_location"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Información:"
+                            android:text="@string/article_show_info"
                             android:paddingTop="10dp"
                             android:textColor="@color/secundary"
                             android:textSize="20sp"/>
@@ -164,7 +164,7 @@
                             android:layout_below="@id/card_view_info"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Información de contacto"
+                            android:text="@string/article_show_contact"
                             android:paddingTop="10dp"
                             android:textColor="@color/secundary"
                             android:textSize="20sp" />
@@ -185,7 +185,7 @@
                             android:layout_below="@id/textEmail"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Página web no disponible"
+                            android:text="@string/article_show_website"
                             android:textColor="@color/secundary" />
 
                         <TextView
@@ -209,7 +209,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="12dp"
             android:clickable="true"
-            android:src="@android:drawable/star_big_off"
+            android:src="@drawable/empty_like"
             android:layout_above="@+id/card_view"
             android:layout_alignParentEnd="true" />
     </RelativeLayout>

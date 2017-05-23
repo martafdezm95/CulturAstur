@@ -70,7 +70,7 @@ public class FavouritesActivity extends AppCompatActivity implements ArticleList
     private void initInstancesDrawer() {
         Toolbar mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
-        getSupportActionBar().setTitle("Mis Favoritos");
+        getSupportActionBar().setTitle(R.string.toolbar_title_fav);
         mToolbar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.toolbarFavouriteColor)));
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_design_support_layout);
         mDrawerToggle = new ActionBarDrawerToggle(
@@ -97,18 +97,16 @@ public class FavouritesActivity extends AppCompatActivity implements ArticleList
                        // ArticleListFragment.articlesModelList=ArticleListFragment.articlesModelListFinal;
                         break;
                     case R.id.navigation_drawer_maps:
-                        finish();
                         resultIntent = new Intent();
                         list = (ArrayList<Article>)ArticleListFragment.articlesModelListFinal;
                         resultIntent.putExtra("myArticle", list);
-                        setResult(Activity.RESULT_OK, resultIntent);
+                        setResult(3, resultIntent);
                         MainActivity.favourite = false;
-                        Intent intent = new Intent(FavouritesActivity.this, MapsActivity.class);
-                        startActivity(intent);
+                        finish();
                         break;
                     case R.id.navigation_favourite:
                         MainActivity.favourite = true;
-                        Toast.makeText(getApplicationContext(),"Ya está en favoritos",Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(),R.string.toast_already_fav,Toast.LENGTH_LONG).show();
                         break;
                 }
                 return false;

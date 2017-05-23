@@ -23,6 +23,7 @@ public class ArticleAdapter extends BaseAdapter {
 
 	private List<Article> articleInfo;
 	public LayoutInflater mInflater;
+	public Context cont = null;
 
 	
 	public ArticleAdapter(Context context, List<Article> articleInfo) {
@@ -33,6 +34,7 @@ public class ArticleAdapter extends BaseAdapter {
 			
 		this.articleInfo = articleInfo;
 		this.mInflater = LayoutInflater.from(context);
+		cont = context;
 	}
 		
 	@Override
@@ -71,10 +73,11 @@ public class ArticleAdapter extends BaseAdapter {
 
 		Article m = articleInfo.get(position);
 		viewHolder.mName.setText(m.getName());
-		viewHolder.mCouncil.setText("Concejo: " + m.getCouncil());
-		if(m.getURL()!=""){
+
+		viewHolder.mCouncil.setText( cont.getResources().getString(R.string.adapter_council)+ m.getCouncil());
+		/*if(m.getURL()!=""){
 			//Picasso.with(parent.getContext()).load(m.getURL()).resize(60,60).into(viewHolder.mImageView);
-		}
+		}*/
 		
 		return rowView;
 	}

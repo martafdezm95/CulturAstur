@@ -20,12 +20,12 @@
         "source": "C:\\Users\\marta\\.android\\build-cache\\4e25338ff3c1825a5e8b1de8cedbb27d4df25ff8\\output\\res\\drawable-hdpi\\common_google_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cast_ic_notification_1.png",
-        "source": "C:\\Users\\marta\\.android\\build-cache\\5b29b103f19197b9f9f2a871978d2ba6275adb8c\\output\\res\\drawable-hdpi\\cast_ic_notification_1.png"
-    },
-    {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_cast_disabled_light.png",
         "source": "C:\\Users\\marta\\.android\\build-cache\\0ff70bdb96e080dba3936b49dc996f3194748f4c\\output\\res\\drawable-hdpi\\ic_cast_disabled_light.png"
+    },
+    {
+        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cast_ic_notification_1.png",
+        "source": "C:\\Users\\marta\\.android\\build-cache\\5b29b103f19197b9f9f2a871978d2ba6275adb8c\\output\\res\\drawable-hdpi\\cast_ic_notification_1.png"
     },
     {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_text_dark_focused.9.png",
@@ -76,10 +76,6 @@
         "source": "C:\\Users\\marta\\.android\\build-cache\\3c430a607ff0832c45dcdde736bad87f255b7576\\output\\res\\drawable-hdpi\\places_ic_clear.png"
     },
     {
-        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_shortcut_local_offer.png",
-        "source": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\drawable-hdpi\\ic_shortcut_local_offer.png"
-    },
-    {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_rating_star_off_mtrl_alpha.png",
         "source": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\drawable-hdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
     },
@@ -92,12 +88,12 @@
         "source": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_scrubber_track_mtrl_alpha.9.png",
         "source": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\drawable-hdpi\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_divider_mtrl_alpha.9.png",
@@ -130,6 +126,10 @@
     {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_scrubber_control_off_mtrl_alpha.png",
         "source": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\drawable-hdpi\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\home_icon.png",
+        "source": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\drawable-hdpi\\home_icon.png"
     },
     {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_light_focused.9.png",
@@ -210,10 +210,6 @@
     {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_textfield_search_activated_mtrl_alpha.9.png",
         "source": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\drawable-hdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_book_pile.png",
-        "source": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\drawable-hdpi\\ic_book_pile.png"
     },
     {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cast_ic_notification_0.png",
@@ -308,10 +304,6 @@
         "source": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\drawable-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_shortcut_edit_location.png",
-        "source": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\drawable-hdpi\\ic_shortcut_edit_location.png"
-    },
-    {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_media_route_on_mono_dark.png",
         "source": "C:\\Users\\marta\\.android\\build-cache\\0ff70bdb96e080dba3936b49dc996f3194748f4c\\output\\res\\drawable-hdpi\\ic_media_route_on_mono_dark.png"
     },
@@ -320,8 +312,12 @@
         "source": "C:\\Users\\marta\\.android\\build-cache\\0ff70bdb96e080dba3936b49dc996f3194748f4c\\output\\res\\drawable-hdpi\\ic_cast_on_1_light.png"
     },
     {
-        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_account_balance_black_18dp.png",
-        "source": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\drawable-hdpi\\ic_account_balance_black_18dp.png"
+        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\filled_like.png",
+        "source": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\drawable-hdpi\\filled_like.png"
+    },
+    {
+        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\empty_like.png",
+        "source": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\drawable-hdpi\\empty_like.png"
     },
     {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_play_light.png",
@@ -334,10 +330,6 @@
     {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_cast_on_2_light.png",
         "source": "C:\\Users\\marta\\.android\\build-cache\\0ff70bdb96e080dba3936b49dc996f3194748f4c\\output\\res\\drawable-hdpi\\ic_cast_on_2_light.png"
-    },
-    {
-        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_add_course.png",
-        "source": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\drawable-hdpi\\ic_action_add_course.png"
     },
     {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png",

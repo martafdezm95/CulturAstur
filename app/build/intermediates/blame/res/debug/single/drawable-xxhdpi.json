@@ -80,12 +80,12 @@
         "source": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\drawable-xxhdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_book_pile.png",
-        "source": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\drawable-xxhdpi\\ic_book_pile.png"
-    },
-    {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
         "source": "C:\\Users\\marta\\.android\\build-cache\\4e25338ff3c1825a5e8b1de8cedbb27d4df25ff8\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_book_pile.png",
+        "source": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\drawable-xxhdpi\\ic_book_pile.png"
     },
     {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_ic_clear_mtrl_alpha.png",
@@ -332,16 +332,16 @@
         "source": "C:\\Users\\marta\\.android\\build-cache\\3ed56f25a1d63cb6b1d3e74f62b81dc3297cfed6\\output\\res\\drawable-xxhdpi\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_shortcut_edit_location.png",
-        "source": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\drawable-xxhdpi\\ic_shortcut_edit_location.png"
-    },
-    {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\places_ic_search.png",
         "source": "C:\\Users\\marta\\.android\\build-cache\\3c430a607ff0832c45dcdde736bad87f255b7576\\output\\res\\drawable-xxhdpi\\places_ic_search.png"
     },
     {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
         "source": "C:\\Users\\marta\\.android\\build-cache\\4e25338ff3c1825a5e8b1de8cedbb27d4df25ff8\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_shortcut_edit_location.png",
+        "source": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\src\\main\\res\\drawable-xxhdpi\\ic_shortcut_edit_location.png"
     },
     {
         "merged": "C:\\Users\\marta\\Downloads\\Courses\\CulturAstur\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\cast_ic_notification_on.png",

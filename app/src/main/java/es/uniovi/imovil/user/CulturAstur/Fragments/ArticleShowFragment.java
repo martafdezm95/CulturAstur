@@ -32,31 +32,35 @@ public class ArticleShowFragment extends Fragment {
     private static final String ARTICLE_NAME = "Name";
     private RequestQueue mRequestQueue;
     private int pos ;
+    View rootView;
 
-    public static ArticleShowFragment newInstance(String name) {
+
+    public static ArticleShowFragment newInstance() {
 
         ArticleShowFragment fragment = new ArticleShowFragment();
 
         Bundle args = new Bundle();
-        args.putString(ARTICLE_NAME, name);
+        args.putSerializable("article", articleFragment);
         fragment.setArguments(args);
 
         return fragment;
     }
 
-    public ArticleShowFragment() {
-    }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-
-        View rootView;
         rootView = inflater.inflate(R.layout.fragment_show_article, container, false);
 
         // Si estamos restaurando desde un estado previo no hacemos nada
         if (savedInstanceState != null) {
+            return rootView;
+        }
+        if(rootView!=null){
+            if((ViewGroup)rootView.getParent()!=null)
+                ((ViewGroup)rootView.getParent()).removeView(rootView);
             return rootView;
         }
 
@@ -79,19 +83,19 @@ public class ArticleShowFragment extends Fragment {
         ImageView thumbNail = (ImageView) getView()
                 .findViewById(R.id.networkImage);
         final FloatingActionButton fab = (FloatingActionButton) getView().findViewById(R.id.floatingActionButton);
-        fab.setImageResource(android.R.drawable.star_big_off);
+        fab.setImageResource(R.drawable.empty_like);
         try {
             int posArt = ArticleListFragment.articlesModelList.get(pos).getModelPos();
             int posFav = ArticleListFragment.articlesModelListFinal.get(posArt).isFav();
             if ( posFav != -1) {
-                fab.setImageResource(android.R.drawable.star_big_on);
+                fab.setImageResource(R.drawable.filled_like);
             }
 
         }catch(RuntimeException e){
             int posArt = ArticleListFragment.articlesFavouriteList.get(pos).getModelPos();
             int posFav = ArticleListFragment.articlesModelListFinal.get(posArt).isFav();
             if ( posFav != -1) {
-                fab.setImageResource(android.R.drawable.star_big_on);
+                fab.setImageResource(R.drawable.filled_like);
             }
         }
         fab.setOnClickListener(new View.OnClickListener() {
@@ -104,7 +108,7 @@ public class ArticleShowFragment extends Fragment {
                     int posFav = ArticleListFragment.articlesModelListFinal.get(posArt).isFav();
                     //If =! -1, remove from favourite
                     if (posFav != -1) {
-                        fab.setImageResource(android.R.drawable.star_big_off); //Replace yellow star for grey star
+                        fab.setImageResource(R.drawable.empty_like); //Replace yellow star for grey star
 
                         //Remove from favouriteList
                         ArticleListFragment.articlesFavouriteList.remove(ArticleListFragment.articlesModelList.get(pos).isFav());
@@ -122,7 +126,7 @@ public class ArticleShowFragment extends Fragment {
 
                         editor.apply();
                     } else {
-                        fab.setImageResource(android.R.drawable.star_big_on);  //Replace gray star for yellow star
+                        fab.setImageResource(R.drawable.filled_like);  //Replace gray star for yellow star
 
                         //Add article at favourite list
                         ArticleListFragment.articlesFavouriteList.add(ArticleListFragment.articlesModelList.get(pos));
@@ -162,7 +166,7 @@ public class ArticleShowFragment extends Fragment {
                     int posArt = ArticleListFragment.articlesFavouriteList.get(pos).getModelPos();
                     int posFav = ArticleListFragment.articlesModelListFinal.get(posArt).isFav();
                     if ( posFav != -1) {
-                        fab.setImageResource(android.R.drawable.star_big_off);
+                        fab.setImageResource(R.drawable.empty_like);
                         ArticleListFragment.articlesFavouriteList.get(pos).setFav(-1);
                         ArticleListFragment.articlesFavouriteList.remove(pos);
                         ArticleListFragment.articlesModelListFinal.get(posArt).setFav(-1);

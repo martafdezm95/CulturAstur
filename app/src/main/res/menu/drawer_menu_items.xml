@@ -3,17 +3,17 @@
     <group android:checkableBehavior="all">
     <item
         android:id="@+id/navigation_drawer_home"
-        android:icon="@android:drawable/ic_menu_view"
-        android:title="Home" /></group>
+        android:icon="@drawable/home_icon"
+        android:title="@string/drawer_home" /></group>
     <group android:checkableBehavior="all">
         <item
             android:id="@+id/navigation_drawer_maps"
             android:icon="@android:drawable/ic_dialog_map"
-            android:title="Map" />
+            android:title="@string/drawer_map" />
         <item
             android:id="@+id/navigation_favourite"
-            android:icon="@android:drawable/btn_star_big_off"
-            android:title="Favoritos" />
+            android:icon="@drawable/filled_like"
+            android:title="@string/drawer_fav" />
 
     </group>
 

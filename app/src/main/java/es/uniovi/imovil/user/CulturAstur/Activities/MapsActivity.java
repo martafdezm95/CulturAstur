@@ -60,12 +60,23 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private static final int PERMISSION_REQUEST_CODE_LOCATION = 1;
     LatLng loc;
     static final int PICK_CONTACT_REQUEST = 0;
+    public static boolean mTwoPanes = false;
 
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        setContentView(R.layout.activity_maps);
+        mDrawerToggle.onConfigurationChanged(newConfig);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
         initInstancesDrawer();
+
+        if (findViewById(R.id.article_details_container) != null) {
+            mTwoPanes = true;
+        }
 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -104,12 +115,11 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                         finish();
                         break;
                     case R.id.navigation_drawer_maps:
-                        Toast.makeText(getApplicationContext(),"Ya está en el mapa",Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(),R.string.maps_already_maps,Toast.LENGTH_LONG).show();
                         break;
                     case R.id.navigation_favourite:
+                        setResult(2, null);
                         finish();
-                        //Do some thing here
-                        // add navigation drawer item onclick method here
                         break;
                 }
                 return false;
@@ -162,7 +172,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     public void requestPermission(String strPermission,int perCode,Context _c,Activity _a){
-        Toast.makeText(getApplicationContext(),"Es necesario poder acceder a tu localización para el normal uso de la aplicación",Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),R.string.toast_maps_gps,Toast.LENGTH_LONG).show();
         ActivityCompat.requestPermissions(_a,new String[]{strPermission},perCode);
 
     }
@@ -184,7 +194,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     fetchLocationData();
                 } else {
-                    Toast.makeText(getApplicationContext(),"Permiso denegado, no se podrá utilizar la aplicación",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),R.string.toast_maps_permission,Toast.LENGTH_LONG).show();
                 }
                 break;
         }
@@ -196,12 +206,14 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             Location location = LocationServices.FusedLocationApi.getLastLocation(googleApiClient);
             loc = new LatLng(0, 0);
             if (location == null) {
-                Toast.makeText(getApplicationContext(),"CONECTE EL GPS PARA OBTENER SU UBICACIÓN",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),R.string.toast_maps_gps2,Toast.LENGTH_LONG).show();
                 LocationServices.FusedLocationApi.requestLocationUpdates(googleApiClient, locationRequest, this);
             }
             else {
                 loc = new LatLng(location.getLatitude(),location.getLongitude());
-                mMap.addMarker(new MarkerOptions().position(loc).title("Aquí estás").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+                mMap.addMarker(new MarkerOptions().position(loc)
+                        .title(getResources().getString(R.string.you_are_here))
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
                 mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(loc, 15f));
             }
         }

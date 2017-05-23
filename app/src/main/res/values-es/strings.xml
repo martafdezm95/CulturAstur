@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CulturAstur</string>
+    <string name="toolbar_title_fav">Mis favoritos</string>
+    <string name="toast_already_fav">Ya está en favoritos</string>
+    <string name="filter_map_10">10 más próximos</string>
+    <string name="filter_name_comp">Nombre</string>
+    <string name="filter_council_comp">Localidad</string>
+    <string name="toas_filter_gps">Por favor active el GPS, para ordenar por proximidad</string>
+    <string name="main_already_home">Ya está en el menú principal</string>
+    <string name="maps_already_maps">Ya está en el mapa</string>
+    <string name="toast_maps_gps">Es necesario poder acceder a tu localización para el normal uso de la aplicación</string>
+    <string name="toast_maps_permission">Permiso denegado, no se podrá utilizar la aplicación</string>
+    <string name="toast_maps_gps2">CONECTE EL GPS PARA OBTENER SU UBICACIÓN</string>
+    <string name="you_are_here">Aquí estás</string>
+    <string name="progress_dialog_loading">Cargando...</string>
+    <string name="adapter_council">Concejo: </string>
+    <string name="filter_title">Filtrar por:</string>
+    <string name="filter_order">Ordenar por proximidad</string>
+    <string name="filter_button_filter">Filtrar</string>
+    <string name="article_show_council">Localización:</string>
+    <string name="article_show_info">Información:</string>
+    <string name="article_show_contact">Información de contacto:</string>
+    <string name="article_show_website">Página web no disponible</string>
+    <string name="drawer_home">Menú principal</string>
+    <string name="drawer_map">Mapa</string>
+    <string name="drawer_fav">Mis Favoritos</string>
+    <string name="filter_option_name">Nombre</string>
+    <string name="filter_option_council">Localidad</string>
+    <string name="filter_option_prompt">Buscar por: </string>
+    <string-array name="filter_option_array">
+        <item>@string/filter_option_name</item>
+        <item>@string/filter_option_council</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_key" >AIzaSyDfmzSIocwr5Ydw_xmbjZCf7wEjk4MzJDQ</string>
+</resources>
