@@ -19,8 +19,8 @@ public class Article implements Serializable {
     private String web = null;
     private String telephone = null;
     private double dist;
-    private int fav = -1;
-    private int modelPos = -1;
+    private int fav = -1; //Posicion en lista de favoritos
+    private int modelPos = -1; //posicion en lista principal
 
     public int isFav() {
         return fav;

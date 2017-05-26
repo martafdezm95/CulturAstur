@@ -51,6 +51,7 @@ public class FavouritesActivity extends AppCompatActivity implements ArticleList
         if (findViewById(R.id.article_details_container) != null) {
             mTwoPanes = true;
         }
+        //Se guardarán las preferencias parseando la lista de articles en un string
         SharedPreferences prefs = getSharedPreferences("favs", Context.MODE_PRIVATE);
         String articleParamJSONList = prefs.getString("favs", "");
 
@@ -58,6 +59,7 @@ public class FavouritesActivity extends AppCompatActivity implements ArticleList
         }.getType());
         if(articleParamList==null) articleParamList = new ArrayList<Article>();
 
+        //Motramos los elementos guardados en favoritos
         FragmentManager fragmentManager = getSupportFragmentManager();
         ArticleListFragment fragment = (ArticleListFragment) fragmentManager.findFragmentById(R.id.course_list_frag);
         fragment.setArticleList(articleParamList);
@@ -88,6 +90,7 @@ public class FavouritesActivity extends AppCompatActivity implements ArticleList
                 int id = menuItem.getItemId();
                 switch (id) {
                     case R.id.navigation_drawer_home:
+                        //Volver a home
                         Intent resultIntent = new Intent();
                         ArrayList<Article> list = (ArrayList<Article>)ArticleListFragment.articlesModelListFinal;
                         resultIntent.putExtra("myArticle", list);
@@ -97,6 +100,7 @@ public class FavouritesActivity extends AppCompatActivity implements ArticleList
                        // ArticleListFragment.articlesModelList=ArticleListFragment.articlesModelListFinal;
                         break;
                     case R.id.navigation_drawer_maps:
+                        //Ir a los mapas
                         resultIntent = new Intent();
                         list = (ArrayList<Article>)ArticleListFragment.articlesModelListFinal;
                         resultIntent.putExtra("myArticle", list);
@@ -128,15 +132,14 @@ public class FavouritesActivity extends AppCompatActivity implements ArticleList
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle item selection
         switch (item.getItemId()) {
             case R.id.search_toolbar:
+                //permitimos filtrar la lista de favoritos
                 Intent i = new Intent(FavouritesActivity.this, FilterActivity.class);
                 i.putExtra("parentId", 1);
                 startActivityForResult(i, PICK_CONTACT_REQUEST);
@@ -147,16 +150,10 @@ public class FavouritesActivity extends AppCompatActivity implements ArticleList
     }
     @Override
     public void onCourseSelected(int posicion) {
-
-        /*if (mTwoPanes) {
-            FragmentManager fragmentManager = getSupportFragmentManager();
-            ArticleShowFragment fragment = (ArticleShowFragment) fragmentManager.findFragmentById(R.id.course_details_frag);
-            fragment.setArticle(posicion);
-        } else {*/
+        //Mostramos la información del objeto elegido
             Intent i = new Intent(FavouritesActivity.this, ArticleShowActivity.class);
             i.putExtra("myArticle", posicion);
             startActivityForResult(i, PICK_CONTACT_REQUEST);
-        //}
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -170,12 +167,12 @@ public class FavouritesActivity extends AppCompatActivity implements ArticleList
     @Override
     public void onBackPressed()
     {
+        //Preparar la lista a mostrar en mainactivity
         Intent resultIntent = new Intent();
         ArrayList<Article> list = (ArrayList<Article>)ArticleListFragment.articlesModelListFinal;
         resultIntent.putExtra("myArticle", list);
         setResult(Activity.RESULT_OK, resultIntent);
         MainActivity.favourite = false;
-       // ArticleListFragment.articlesModelList=ArticleListFragment.articlesModelListFinal;
         finish();
     }
 }

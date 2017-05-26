@@ -13,7 +13,8 @@ import android.widget.TextView;
 import es.uniovi.imovil.user.CulturAstur.Models.Article;
 
 public class ArticleAdapter extends BaseAdapter {
-	
+
+
 	static class ViewHolder {
 		public TextView mName;
 		public TextView mCouncil;
@@ -57,7 +58,7 @@ public class ArticleAdapter extends BaseAdapter {
 
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
-		
+		//Inflamos la vista del listview
 		View rowView = convertView;
 		ViewHolder viewHolder;
 		if (rowView == null) {

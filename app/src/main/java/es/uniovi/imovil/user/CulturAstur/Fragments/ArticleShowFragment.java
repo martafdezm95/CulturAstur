@@ -34,20 +34,6 @@ public class ArticleShowFragment extends Fragment {
     private int pos ;
     View rootView;
 
-
-    public static ArticleShowFragment newInstance() {
-
-        ArticleShowFragment fragment = new ArticleShowFragment();
-
-        Bundle args = new Bundle();
-        args.putSerializable("article", articleFragment);
-        fragment.setArguments(args);
-
-        return fragment;
-    }
-
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -101,10 +87,9 @@ public class ArticleShowFragment extends Fragment {
         fab.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
-                    //if (!MainActivity.favourite) {
-                    // Position of the object at FinalList
+                    // Posicion en FinalList
                     int posArt = ArticleListFragment.articlesModelList.get(pos).getModelPos();
-                    //Position at FavouriteList
+                    //Position en FavouriteList
                     int posFav = ArticleListFragment.articlesModelListFinal.get(posArt).isFav();
                     //If =! -1, remove from favourite
                     if (posFav != -1) {
@@ -143,25 +128,6 @@ public class ArticleShowFragment extends Fragment {
                         ArticleListFragment.articlesModelList.get(pos).setFav(ArticleListFragment.articlesFavouriteList.size() - 1);
                         ArticleListFragment.articlesModelListFinal.get(posArt).setFav(ArticleListFragment.articlesFavouriteList.size() - 1);
                     }
-                   /* } else {
-                        int posArt = ArticleListFragment.articlesFavouriteList.get(pos).getModelPos();
-                        int posFav = ArticleListFragment.articlesModelListFinal.get(posArt).isFav();
-                        if (posFav != -1) {
-                            fab.setImageResource(android.R.drawable.star_big_off);
-                            ArticleListFragment.articlesFavouriteList.get(pos).setFav(-1);
-                            ArticleListFragment.articlesFavouriteList.remove(pos);
-                            ArticleListFragment.articlesModelListFinal.get(posArt).setFav(-1);
-                            ArticleListFragment.articlesModelList.get(pos).setFav(-1);
-                            ArticleListFragment.articlesModelList.remove(pos);
-                        }
-                        List<Article> articleParamList = ArticleListFragment.articlesFavouriteList;
-                        String articleParamJSONList = new Gson().toJson(articleParamList);
-                        SharedPreferences prefs = getSharedPreferences("favs", Context.MODE_PRIVATE);
-                        SharedPreferences.Editor editor = prefs.edit();
-                        editor.putString("favs", articleParamJSONList);
-
-                        editor.apply();
-                    }*/
                 }catch(ArrayIndexOutOfBoundsException e) {
                     int posArt = ArticleListFragment.articlesFavouriteList.get(pos).getModelPos();
                     int posFav = ArticleListFragment.articlesModelListFinal.get(posArt).isFav();
@@ -184,7 +150,7 @@ public class ArticleShowFragment extends Fragment {
             }
         });
         if(article.getURL()!=""){
-
+            //Obtenemos imagen mediante url y se carga en el imageView
             Glide.with(getActivity().getApplicationContext()).load(article.getURL()).fitCenter()
                     .centerCrop()
                     .into(thumbNail);
@@ -211,6 +177,8 @@ public class ArticleShowFragment extends Fragment {
         String text ="";
         while(i<article.getInfo().size() || !found){
             try{
+                //El texto viene en formato html por tanto se han observado las etiquetas
+                //más comunes y se eliminan
                     text = article.getInfo().get(i).replaceAll("<p>", "");
                     text = text.replaceAll("</p>", "");
                     text = text.replaceAll(";", "");
@@ -250,26 +218,4 @@ public class ArticleShowFragment extends Fragment {
         }catch(NullPointerException e){}
 
 }
-   /* @Override
-    public void onBackPressed()
-    {
-        refreshFavPos();
-        Intent resultIntent = new Intent();
-        resultIntent.putExtra("myArticle", ArticleListFragment.articlesFavouriteList);
-        getActivity().setResult(Activity.RESULT_OK, resultIntent);
-        ArticleListFragment.articlesModelList=ArticleListFragment.articlesModelListFinal;
-        getActivity().finish();
-    }*/
-    public Article getObject(Article art){
-        Article result =
-                ArticleListFragment.articlesModelListFinal.get(
-                        ArticleListFragment.articlesModelListFinal.indexOf(art)
-                );
-        return result;
-    }
-    public void refreshFavPos(){
-        for(int i=0; i<ArticleListFragment.articlesFavouriteList.size(); i++){
-            ArticleListFragment.articlesFavouriteList.get(i).setFav(i);
-        }
-    }
 }

@@ -72,12 +72,14 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
+        //Inicializamos toolbar y drawer
         initInstancesDrawer();
 
         if (findViewById(R.id.article_details_container) != null) {
             mTwoPanes = true;
         }
 
+        //Inicializamos el mapa
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
@@ -112,13 +114,13 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 int id = menuItem.getItemId();
                 switch (id) {
                     case R.id.navigation_drawer_home:
-                        finish();
+                        finish(); //exit y volvemos a mainactivity
                         break;
                     case R.id.navigation_drawer_maps:
                         Toast.makeText(getApplicationContext(),R.string.maps_already_maps,Toast.LENGTH_LONG).show();
                         break;
                     case R.id.navigation_favourite:
-                        setResult(2, null);
+                        setResult(2, null); //se procesa en onActivityResult de Mainactivity
                         finish();
                         break;
                 }
@@ -134,6 +136,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         addMarkers(ArticleListFragment.articlesModelList);
     }
 
+    //Añadimos marcadores de todos y cada uno de los elementos de la lista ue se pasa por parámetro
     private void addMarkers(List<Article> articlesList){
         for (int i = 0; i< articlesList.size(); i++ ){
             Double lat = articlesList.get(i).getLat();
@@ -159,6 +162,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {}
+
+    //Controlamos que el dispositivo tenga conectado el GPS
 
     @Override
     public void onConnected(@Nullable Bundle bundle) {
@@ -201,7 +206,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
     private void fetchLocationData()
     {
-        //Aquí se accede cuando los permisos ya han sido concedidos
+        //Una vez se han concedido los permisos
         try{
             Location location = LocationServices.FusedLocationApi.getLastLocation(googleApiClient);
             loc = new LatLng(0, 0);
@@ -232,7 +237,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         Double lat = article.getLat();
         Double lng = article.getLng();
         if(lng != null && lng != null){
-            LatLng coordinate = new LatLng(lat, lng); //Store these lat lng values somewhere. These should be constant.
+            //Almamacenamos las coordenadas
+            LatLng coordinate = new LatLng(lat, lng);
             CameraUpdate location = CameraUpdateFactory.newLatLngZoom(
                     coordinate, 15);
             mMap.animateCamera(location);
@@ -259,6 +265,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        //En caso de etar en un dispositivo tipo tablet contamos con la lista de elementos,
+        //tras filtrar la lista obtenemos dichos elementos y los mostramos el resutado tanto en el listview
+        // como en el mapa
         if (requestCode == PICK_CONTACT_REQUEST && resultCode == RESULT_OK && data != null) {
             ArrayList<Article> myList = (ArrayList<Article>) data.getSerializableExtra("myArticle");
             int screenSize = getResources().getConfiguration().screenLayout &
@@ -268,8 +277,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 ArticleListFragment fragment = (ArticleListFragment) fragmentManager.findFragmentById(R.id.article_list_map);
                 fragment.setArticleList(myList);
             }
-            mMap.clear();
-            addMarkers(myList);
+            mMap.clear(); //Borramos marcadores previos
+            addMarkers(myList); //Añadimos los nuevos
         }
     }
 }

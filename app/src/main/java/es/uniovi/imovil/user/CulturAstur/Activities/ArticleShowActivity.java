@@ -144,11 +144,10 @@ public class ArticleShowActivity extends Activity {
 
         ImageView thumbNail = (ImageView) findViewById(R.id.networkImage);
         if(article.getURL()!=""){
+            //Obtenemos imagen mediante url y se carga en el imageView
            Glide.with(getApplicationContext()).load(article.getURL()).fitCenter()
                     .centerCrop()
                     .into(thumbNail);
-            /*.resize(Resources.getSystem().getDisplayMetrics().widthPixels*2+Resources.getSystem().getDisplayMetrics().widthPixels,
-                            Resources.getSystem().getDisplayMetrics().heightPixels)*/
         }
         else{
             thumbNail.setImageResource(R.drawable.museum);
@@ -172,6 +171,8 @@ public class ArticleShowActivity extends Activity {
         String text ="";
         while(i<article.getInfo().size() || !found){
             try{
+                //El texto viene en formato html por tanto se han observado las etiquetas
+                //más comunes y se eliminan
                 text = article.getInfo().get(i).replaceAll("<p>", "");
                 text = text.replaceAll("</p>", "");
                 text = text.replaceAll(";", "");
@@ -210,9 +211,6 @@ public class ArticleShowActivity extends Activity {
             website.setText(article.getWeb());
         }catch(NullPointerException e){}
 
-        //thumbNail.setImageResource(R.drawable.ic_action_add_course);
-        // ViewGroup layout = (ViewGroup) findViewById(R.id.activity_display_message);
-        // layout.addView(textView);
     }
     @Override
     public void onBackPressed()
@@ -221,9 +219,10 @@ public class ArticleShowActivity extends Activity {
         Intent resultIntent = new Intent();
         resultIntent.putExtra("myArticle", ArticleListFragment.articlesFavouriteList);
         setResult(Activity.RESULT_OK, resultIntent);
-       // ArticleListFragment.articlesModelList=ArticleListFragment.articlesModelListFinal;
         finish();
     }
+
+    //actualizar índices de posición en favouritList
     public void refreshFavPos(){
         for(int i=0; i<ArticleListFragment.articlesFavouriteList.size(); i++){
             ArticleListFragment.articlesFavouriteList.get(i).setFav(i);
